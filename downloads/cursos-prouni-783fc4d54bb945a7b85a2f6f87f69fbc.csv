@@ -1,0 +1,11 @@
+uf_busca,cidade_busca,universidade_nome,campus_nome,nome,grau,turno,mensalidade,bolsa_integral_cotas,bolsa_integral_ampla,bolsa_parcial_cotas,bolsa_parcial_ampla,nota_integral_ampla,nota_integral_cotas,nota_parcial_ampla,nota_parcial_cotas
+MG,Pocos de Caldas,Universidade de Franca - UNIFRAN,POLO POÇOS DE CALDAS - JARDIM DOS ESTADOS,Ciências Econômicas,Bacharelado,Curso a Distância,290.42,,,1,,,,450.00,
+SP,Campinas,Universidade de Franca - UNIFRAN,POLO CAMPINAS - Centro,Ciências Econômicas,Bacharelado,Curso a Distância,290.42,,,,1,,,569.84,
+SP,Franca,Universidade de Franca - UNIFRAN,POLO NA SEDE - Parque Universitário,Ciências Econômicas,Bacharelado,Curso a Distância,290.42,,,,1,,,579.24,
+SP,Mogi-Guacu,Universidade de Franca - UNIFRAN,POLO MOGI-GUAÇU - Jardim Canta Galo,Ciências Econômicas,Bacharelado,Curso a Distância,290.42,,,,1,,,541.76,
+SP,Osasco,Universidade de Franca - UNIFRAN,POLO OSASCO - CENTRO,Ciências Econômicas,Bacharelado,Curso a Distância,290.42,,,,1,,,501.34,
+SP,Piracicaba,Universidade de Franca - UNIFRAN,POLO PIRACICABA - Alto,Ciências Econômicas,Bacharelado,Curso a Distância,290.42,,,,1,,,534.76,
+SP,Ribeirao Preto,Universidade de Franca - UNIFRAN,POLO RIBEIRÃO PRETO - Centro,Ciências Econômicas,Bacharelado,Curso a Distância,290.42,,,,1,,,565.16,
+SP,Santos,Universidade de Franca - UNIFRAN,POLO SANTOS - BOQUEIRÃO,Ciências Econômicas,Bacharelado,Curso a Distância,290.42,,,1,1,,,450.00,450.00
+SP,Sao Jose do Rio Preto,Universidade de Franca - UNIFRAN,POLO SÃO JOSÉ DO RIO PRETO - Vila Nossa Senhora da Paz,Ciências Econômicas,Bacharelado,Curso a Distância,290.42,,,,1,,,483.58,
+SP,Sao Paulo,Universidade de Franca - UNIFRAN,POLO SÃO PAULO - Cerqueira Cesar,Ciências Econômicas,Bacharelado,Curso a Distância,290.42,0,1,,,521.34,,,

@@ -26,3 +26,23 @@ Neste teste, você precisa desenvolver uma aplicação para coletar dados do sit
 5) Envie seus commits para o GitHub faltando 5 minutos para o prazo final do teste. Não faça antes, pois você pode expor informações do seu teste para os demais participantes.
 6) Abra o pull request também faltando 5 minutos para o prazo final da entrega do teste.
 7) A entrega deve ser realizada dentro do prazo estabelecido.
+
+
+### Desenvolvimento e Aplicação
+Foi elaborado o desenvolvimento de uma aplicação webcrapping para fazer download do arquivo .csv de acordo com os filtros do usuário em sistema operacional Windows, Chrome e python 3.12.
+
+## Execução
+Foi criado duas classes para esta trabalho e as bibliotecas selenium e os do python. Uma chamada 'BotWeb' que cria o robô para automatizar a busca de acordo com as entradas do usuário e 'downloadsCSV' que apenas executa o download do arquivo.csv. Para executar o Script basta dar um run após seguir as seguintes etapas:
+
+1) Crie um ambiente virtual (caso queira) usando o comando abaixo e ative-o
+    python -m venv venv
+2) Faça o download do chromedriver de acordo com a versão do chrome instalado em seu pc e coloque na mesma pasta de execução do seu python o 'chromedriver.exe'
+3) Instale as dependências usando o comando 
+    pip install -r 'requirements.txt'
+4) Copie e cole o caminho do 'chromedriver.exe' no python e adicione na variável 'path' do arquivo main ( está logo abaixo das importações)
+5) Feito isto, basta executar o arquivo main e preencher as informações para login de usuário e os filtros do dataset
+
+## Filtros de entrada 
+Universisdade, campus, curso, turno e grau
+
+*Nota: ao iniciar o código abre o navegador, mas ele somente começa a rodar após o preenchimento das informações de login de usuário e dos filtros do dataset
