@@ -35,10 +35,14 @@ Foi elaborado o desenvolvimento de uma aplicação webcrapping para fazer downlo
 Foi criado duas classes para esta trabalho e as bibliotecas selenium e os do python. Uma chamada 'BotWeb' que cria o robô para automatizar a busca de acordo com as entradas do usuário e 'downloadsCSV' que apenas executa o download do arquivo.csv. Para executar o Script basta dar um run após seguir as seguintes etapas:
 
 1) Crie um ambiente virtual (caso queira) usando o comando abaixo e ative-o
+
     python -m venv venv
+
 2) Faça o download do chromedriver de acordo com a versão do chrome instalado em seu pc e coloque na mesma pasta de execução do seu python o 'chromedriver.exe'
 3) Instale as dependências usando o comando 
+
     pip install -r 'requirements.txt'
+    
 4) Copie e cole o caminho do 'chromedriver.exe' no python e adicione na variável 'path' do arquivo main ( está logo abaixo das importações)
 5) Feito isto, basta executar o arquivo main e preencher as informações para login de usuário e os filtros do dataset
 
