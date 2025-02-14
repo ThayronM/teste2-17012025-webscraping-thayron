@@ -7,6 +7,9 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.service import Service
 
+from dotenv import load_dotenv
+load_dotenv()
+
 from BotWeb import BotWeb
 from downloadCSV import downloadCSV
 
@@ -19,15 +22,15 @@ web = webdriver.Chrome(service=service)
 try:
     time.sleep(5)
     # dados do usuário
-    nome = input("Digite o nome do usuário: ")
-    senha = input("Digite a senha do usuário: ")
     
-    # filtros do dataset
-    universidade = input("Digite o nome da universidade: ")
-    campus = input("Digite o nome do campus: ")
-    curso = input("Digite o nome do curso: ")
-    turno = input("Digite o turno: ")
-    grau = input("Digite o grau: ")
+    nome = os.environ.get("NOME")
+    senha = os.environ.get("SENHA")
+    
+    universidade = os.environ.get("UNIVERSIDADE")
+    campus = os.environ.get("CAMPUS")
+    curso = os.environ.get("CURSO")
+    turno = os.environ.get("TURNO")
+    grau = os.environ.get("GRAU")
    
         
     # Acessar a página inicial
